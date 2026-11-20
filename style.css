@@ -1,4 +1,4 @@
-/* whole page */
+/* whole page css backend */
 body {
   margin: 0;
   background-color: rgb(142, 41, 236);
@@ -16,7 +16,7 @@ a {
   color: gold;
 }
 
-/* header and nav */
+/* header and navigating through app */
 header {
   display: flex;
   justify-content: space-between;
@@ -43,7 +43,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* sections */
+/* category */
 main {
   max-width: 1000px;
   margin: 0 auto;
@@ -68,7 +68,7 @@ section {
   margin: 5px 0;
 }
 
-/* button */
+/* navigating buttons */
 .button {
   display: inline-block;
   margin-top: 20px;
@@ -84,7 +84,7 @@ section {
   background-color: white;
 }
 
-/* cards */
+/* cards / border / info blocks */
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -131,7 +131,7 @@ footer p {
   margin: 5px 0;
 }
 
-/* phones */
+/* mobile */
 @media (max-width: 600px) {
   header {
     justify-content: center;
